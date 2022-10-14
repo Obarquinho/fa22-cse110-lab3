@@ -23,6 +23,11 @@ body{
     height:300px;
     color: yellow;
 }
+
+ul.flex-container{
+    color:aqua;
+}
+
 .flex-container{
     display:flex;
     flex-direction: row-reverse;
@@ -51,10 +56,26 @@ h1 {
     display:flex;
 }
 
-h3 {
+h3,footer {
     margin:auto;
     display:block;
     position:relative;
+}
+
+h1 + nav{
+    background-color: #5F0;
+}
+
+h2 ~ ul{
+    background-color: #F50;
+}
+
+p > b{
+    color:#0000FF;
+}
+
+form p{
+    color:rgb(255, 0, 3);
 }
 
 
@@ -82,3 +103,14 @@ select:active{
     }
 }
 
+#orangebac{
+    background-color: orange;
+}
+
+*{
+    color: yellow;
+}
+
+li[class^="l"]{
+    color: orange;
+}
