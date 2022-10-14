@@ -2,10 +2,16 @@
 <html lang="en">
   <head>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="lab3.css"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meeting Minutes!</title>
   </head>
+  <style>
+      h2 {
+          color: rgb(57, 120, 184)
+      }
+  </style>
   <body>
       <header>
           <h1>Brainstorm!!</h1>
@@ -17,23 +23,23 @@
       <main>
           <div>
               <h2>People Here</h2>
-              <ul>
-                  <li>Ryan</li>
-                  <li>Bryan</li>
-                  <li>Brian</li>
+              <ul class="flex-container">
+                  <li class="flex-item">Ryan</li>
+                  <li class="flex-item">Bryan</li>
+                  <li class="flex-item">Brian</li>
                   <li>O'brien</li>
               </ul>
               <h2>Agenda</h2>
-              <ul>
-                  <li>Discuss business</li>
+              <ul style="color:hsl(176, 47, 47)">
+                  <li style="color:orange">Discuss business</li>
                   <li>Brainstorm!</li>
               </ul>
           </div>
           <hr>
           <h2>Unfinished Business!</h2>
-          <ol>
-              <li>Where do people get their <b>apples</b>?</li>
-              <li>Where do people get their <b>oranges</b>?</li>
+          <ol class="grid-container">
+              <li class="grid-item">Where do people get their <b>apples</b>?</li>
+              <li class="grid-item">Where do people get their <b>oranges</b>?</li>
               <li>How much money can we make off of <i>bananas</i>?</li>
               <li>We don't have the budget to <span>color</span> text because no <em>CSS</em>!</li>
           </ol>
